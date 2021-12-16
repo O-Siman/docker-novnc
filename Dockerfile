@@ -13,7 +13,8 @@ RUN set -ex; \
       supervisor \
       x11vnc \
       xterm \
-      xvfb
+      xvfb \
+      htop
 
 # Setup demo environment variables
 ENV HOME=/root \
